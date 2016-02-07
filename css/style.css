@@ -1,9 +1,129 @@
+html,
+body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
-  font-weight: narrow;
-  font-family: pt sans narrow bold;
+  font-weight: bold;
+  font-family: "pt sans narrow", ​Arial, ​sans-serif;
+  background-color: #000000
+  background-image: url("img/barbershop-index-grid.jpg");
+  background-repeat:no-repeat;
+  background-position: 50% 3px;
+  background-size: 1122px auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  /* Только для оформления сетки */
+  min-height: 175px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 298px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
 }
 
 h2 {
@@ -20,4 +140,48 @@ h3 {
   color: #000000;
   font-weight: narrow;
   font-family: pt sans narrow bold;
+}
+
+.span1 {
+    width: 940px;
+    margin-left:15px;
+    min-height: 30px;
+    margin-bottom: 50px;
+}
+.gallery {
+  float: left;
+  margin-left: 0px;
+  width: 490px;
+}
+.span2 {
+  float: right;
+  margin-booton: 50px;
+  min-height: 300px;
+  width: 390px;
+}
+.fix-small-img {
+  margin-left: 15px;
+}
+.gallery img, .item-good img {
+ box-shadow:  0 0 20px rgba(0,0,0,0.4);
+}
+ .manufacturers {
+  float: left;
+  margin-left: 0px;
+  width: 220px;
+}
+.block-goods {
+ float: right;
+ margin-left: 0px;
+ width: 750px;
+}
+.item-good {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  min-height: 50px;
+  width: 235px;
+  vertical-align: top;
+  clear: both;
 }
